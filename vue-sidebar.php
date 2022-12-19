@@ -9,6 +9,9 @@
 * License: GPL2
 */
 
+// don't call the file directly
+    if ( !defined( 'ABSPATH' ) ) exit;
+
 new VUE_SIDEBAR;
 
 class VUE_SIDEBAR {
