@@ -12,6 +12,8 @@
 // don't call the file directly
     if ( !defined( 'ABSPATH' ) ) exit;
 
+    use VUESIDEBAR\Enqueues;
+
 new VUE_SIDEBAR;
 
 class VUE_SIDEBAR {
